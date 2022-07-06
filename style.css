@@ -34,7 +34,6 @@ body{
     font-size: 16px;
     letter-spacing: 0.6pt;
     font-weight: 700;
-    text-transform: capitalize;
     padding: 15px 25px;
     border-radius: 5px;
 }
@@ -46,7 +45,7 @@ body{
 .heading_center {
     text-align: center;
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 700;
     margin: 0 0 20px 0;
 }
 .paragraph_center {
@@ -65,7 +64,7 @@ body{
 .donate_amount a{
     text-decoration: none;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     color: #0000007e;
     padding: 31px 35px;
     background-color: #ecf0f18b;
@@ -170,7 +169,7 @@ body{
 }
 .description_text h3 {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 700;
     margin: 0;
 }
 .description_text p {
@@ -186,7 +185,43 @@ body{
     height: 400px;
 }
 .newsletter_subscription_container {
-    width: 80%;
+    width: 50%;
     margin: auto;
-    padding: 50px 0 50px;
+    padding: 60px 0 90px;
+}
+.newsletter_form {
+    background-color: #FFEFEF;
+    text-align: center;
+    padding: 65px 60px;
+
+}
+.newsletter_form input[type=text] {
+    width: 33%;
+    background-color: #7180934d;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px 0 0 4px;
+    padding: 10px 15px;
+}
+.newsletter_form input[type=text]::placeholder{
+    color: #0000006e;
+}
+.newsletter_form input[type=submit] {
+    background-color: rgb(255, 99, 71);
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0 4px 4px 0;
+    margin-left: -5px;
+    padding: 10px 15px;
+}
+footer {
+    background-color: #0B0D17;
+    margin: 0;
+}
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+    padding: 9px 0;
 }
